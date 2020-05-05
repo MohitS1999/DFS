@@ -15,6 +15,7 @@ public class DFS{
 		Arrays.fill(visited,0);
 		dfs(a,sc.nextInt(),n,visited);
 	}
+	//DFS Function
 	public static void dfs(int a[][],int u,int n,int visited[]){
 		//System.out.println("n   "+n);
 		if(visited[u]==0){
